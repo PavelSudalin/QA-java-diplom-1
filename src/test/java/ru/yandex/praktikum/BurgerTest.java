@@ -1,9 +1,15 @@
+package ru.yandex.praktikum;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
-import praktikum.*;
+import ru.yandex.praktikum.Bun;
+import ru.yandex.praktikum.Burger;
+import ru.yandex.praktikum.Database;
+import ru.yandex.praktikum.Ingredient;
+
 import java.util.Arrays;
 import java.util.List;
 

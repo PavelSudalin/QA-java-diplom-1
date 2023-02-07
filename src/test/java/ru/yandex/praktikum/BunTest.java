@@ -1,8 +1,10 @@
+package ru.yandex.praktikum;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import praktikum.Bun;
+import ru.yandex.praktikum.Bun;
 
 @RunWith(Parameterized.class)
 public class BunTest {

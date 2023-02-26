@@ -16,7 +16,7 @@ import static ru.yandex.praktikum.IngredientType.SAUCE;
 
 @RunWith(MockitoJUnitRunner.class)
 public class IngredientTest {
-    Burger burger = new Burger();
+    private  final Burger burger = new Burger();
     @Mock
     Database database;
     public List<Ingredient> ingredients = new ArrayList<>();
